@@ -1,0 +1,20 @@
+<h2>Aprende programacion avanzada con {{bliss}} y conviertete en un pinche chingon!</h2>
+<ul>
+    {{#each users as |lupe|}}
+        {{#with lupe}}
+        <li>{{name}}</li>
+        {{#if age}}
+        
+        <h1>Tu edad: {{age}}</h1>
+        {{else}}
+        <h6>No tienes edad</h6>
+        
+        {{/if}}
+        
+    {{else}}
+    <h2>No hay usuario aun U_U</h2>
+    {{/with}}
+    {{/each}}
+</ul>
+
+<!-- bliss -->

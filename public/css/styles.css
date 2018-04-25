@@ -1,0 +1,11 @@
+nav.bliss{
+    height: 55px;
+    width: 100%;
+    background-color: black;
+    color:white;
+    display: flex;
+}
+
+.blissb{
+    background-color: orange;
+}

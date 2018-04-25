@@ -1,0 +1,10 @@
+<h2>BlisS</h2>
+{{>playerCard}}
+<div style="display:flex;">
+    {{#each photos as |photo|}}
+
+    <img width="50" height="50" src="{{photo}}" alt="">
+
+    {{/each}}
+</div>
+{{>blissButton message}}
